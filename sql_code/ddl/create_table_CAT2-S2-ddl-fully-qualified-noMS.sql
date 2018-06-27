@@ -4,4 +4,4 @@ CREATE TABLE [SOURCE_0626__CAT_2].[Schema_2].[Users_Cat2_retest_schema2](
     [FirstName] [varchar](255) NULL,
     [Address] [varchar](255) NULL,
     [City] [varchar](255) NULL
-) ON [PRIMARY]z
+) ON [PRIMARY]
