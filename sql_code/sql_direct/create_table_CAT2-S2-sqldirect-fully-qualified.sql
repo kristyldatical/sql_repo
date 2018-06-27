@@ -1,4 +1,4 @@
-CREATE TABLE [SOURCE_0626__CAT_1].[Schema_B].[Users_Cat1_SB](
+CREATE TABLE [SOURCE_0626__CAT_2].[Schema_2].[Users_Cat2_S2](
     [User_Id] [int] NOT NULL,
     [LastName] [varchar](255) NOT NULL,
     [FirstName] [varchar](255) NULL,
