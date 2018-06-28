@@ -5,6 +5,6 @@ CREATE FUNCTION "SOURCE_0626__CAT_1"."SCHEMA_A"."COUNT_FUNC_TWO"()
   RETURNS int AS 
   BEGIN
     DECLARE @ct int
-    select @ct=count(*) from [SOURCE_0626__CAT_2].[Schema_2].[Users_Cat2_S2]
+    select @ct=count(*) from [SOURCE_0626__CAT_2].[SCHEMA_2].[Users_Cat2_S2]
     RETURN @ct
   END;
