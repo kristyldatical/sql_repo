@@ -1,6 +1,6 @@
 -- Create trigger  
-CREATE TRIGGER [Schema_1].[TRIGGER_0706]
-   ON  [Schema_1].[Users_0628]
+CREATE TRIGGER [TRIGGER_0706]
+   ON  [SCHEMA_1].[Users_0628]
 	FOR INSERT
 AS 
 	-- other comment
