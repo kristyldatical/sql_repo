@@ -1,6 +1,6 @@
 -- Create trigger  
-CREATE TRIGGER [SCHEMA_1].[TRIGGER_0706]
-   ON  [SCHEMA_1].[Users_0628]
+CREATE TRIGGER [SCHEMA_1].[TRIGGER_07066_1]
+   ON  [SCHEMA_1].[Users_Cat2_S1]
 	FOR INSERT
 AS 
 	-- other comment
@@ -11,7 +11,7 @@ BEGIN
 	SET NOCOUNT ON
 
 	SELECT * FROM 
-    [SOURCE_0626__CAT_1].[Schema_A].[Users_0629];
+    [SOURCE_0626__CAT_1].[Schema_A].[Users_Cat1_SA];
      PRINT 'Done';
 
 END
